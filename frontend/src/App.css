@@ -1,0 +1,36 @@
+.container {
+  max_width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.review-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.review-table th, .review-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.review-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.review-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.review-table tr:hover {
+  background-color: #f1f1f1;
+}
